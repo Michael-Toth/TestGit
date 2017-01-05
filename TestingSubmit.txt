@@ -66,6 +66,7 @@ $git branch --merged /lists merged branches so far
 $git branch merge  foobar/use when ur in the file directoy to acept the changes(I.e master)
 $git push origin master
 --delete Branch_
-$git branch --merged / 
-$git branch - d foobar   
-$git push origin master
+$git branch --merged // checks
+$git branch - d foobar //delets localy
+$git branch - a//checks
+$git push origin master --delete  foobar//remote delete

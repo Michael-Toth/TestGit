@@ -28,3 +28,5 @@ $ git status //
 
 Ignore files
 touch .gitignore
+ad file or *extsion to ignore in the . ignore file in the directory
+

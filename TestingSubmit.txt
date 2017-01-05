@@ -1,4 +1,18 @@
-eeeeeeeee
+//stageing areas*** = 3
+***Working Directory >untrack and modified are listed by runing git status
+
+***Staging Area> files that wil be ccomited
+orginizing what we want comited  = $git add -A //for all files or
+$ git reset foobar.txt or git rest to move back to working directory
+
+***.git directory (Repository)>$git commit  -m"initalcomitt foobar"//comits to the Repository
+$git log
+
+
+
+
+
+
 http://www.codebind.com/linux-tutorials/basic-git-commands-list/
 Cmd operations
 
@@ -12,10 +26,11 @@ $ git clone https://github.com/Michael-Toth/TestGit.git           //copies direc
 
 How to Upload
 //stageing areas = Working Directory >Staging Area>>.git directory (Repository)
-$ git add TestingSubmit.txt
+$ git add TestingSubmit.txt or -A for all
 $ git status //
 $ git commit -m"firstcomitfromcmd" TestingSubmit.txt
-$ git push -u origin master
+$ git push -u origin master or u can $git pull origin master to make sure we are the lastone that changed the code
+
 
 
 
@@ -25,6 +40,14 @@ $ git status //
 $ls -la     // shows the director
 $ rm -rf .git //stopss tracking the project
 $ git status //
+Cloneing
+$gitclone urlfoobar.com .//the last period in comand means this directy or insted of the last period the directoy
+
+
+Viewing Info
+git branch -a
+git remote -v
+
 
 Ignore files
 touch .gitignore

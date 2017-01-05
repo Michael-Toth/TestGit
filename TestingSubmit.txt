@@ -1,1 +1,21 @@
 eeeeeeeee
+http://www.codebind.com/linux-tutorials/basic-git-commands-list/
+Cmd operations
+
+cd
+ls
+cd /c
+$ git config --global user.name "Michael-Toth"                    //is you git hub name
+$ git config --global user.email foobar@foo.com                 //is you git hub name
+How to Dowload
+$ git clone https://github.com/Michael-Toth/TestGit.git           //copies directoyinto ur pc curent directory
+
+How to Upload
+$ git add TestingSubmit.txt
+$ git status
+$ git commit -m"firstcomitfromcmd" TestingSubmit.txt
+$ git push -u origin master
+
+
+
+

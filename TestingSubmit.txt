@@ -1,55 +1,71 @@
-//stageing areas*** = 3
-***Working Directory >untrack and modified are listed by runing git status
+-----stageing areas*** = 3---
+***Working Directory >  untrack and modified are listed by runing git status
 
 ***Staging Area> files that wil be ccomited
 orginizing what we want comited  = $git add -A //for all files or
 $ git reset foobar.txt or git rest to move back to working directory
 
 ***.git directory (Repository)>$git commit  -m"initalcomitt foobar"//comits to the Repository
-$git log
+$ git push -u origin master
+$git log //show the mesage and who and when of the last comit
 
 
 
 
 
 
-http://www.codebind.com/linux-tutorials/basic-git-commands-list/
-Cmd operations
+---http://www.codebind.com/linux-tutorials/basic-git-commands-list/
+Cmd operations---
 
 cd
 ls
 cd /c
 $ git config --global user.name "Michael-Toth"                    //is you git hub name
 $ git config --global user.email foobar@foo.com                 //is you git hub name
-How to Dowload
+--How to Dowload--
 $ git clone https://github.com/Michael-Toth/TestGit.git           //copies directoyinto ur pc curent directory
 
-How to Upload
+---How to Upload---
 //stageing areas = Working Directory >Staging Area>>.git directory (Repository)
 $ git add TestingSubmit.txt or -A for all
 $ git status //
 $ git commit -m"firstcomitfromcmd" TestingSubmit.txt
 $ git push -u origin master or u can $git pull origin master to make sure we are the lastone that changed the code
+//the -u siginifes our local branch with remote brnach
 
 
-
-
-Initalize a Git Directory
-$git init   //creates directory and starts tracking the projecy
+-
+----Initalize a Git Directory-----
+$git init   //creates .git directory and starts tracking the projecy
 $ git status //
 $ls -la     // shows the director
 $ rm -rf .git //stopss tracking the project
 $ git status //
-Cloneing
+-----Cloneing-----
 $gitclone urlfoobar.com .//the last period in comand means this directy or insted of the last period the directoy
 
 
-Viewing Info
+-----Viewing Info---
 git branch -a
 git remote -v
 
 
-Ignore files
+----Ignore files----
 touch .gitignore
 ad file or *extsion to ignore in the . ignore file in the directory
 
+COMMON WORK FLOW
+---CREATE BRANCH--
+$git branch fobar// CREATS FOBAR 
+$git branch/list all local branches
+$git checkout fobar//* denotes working branch
+$git branch/list all local branches  * denotes working branch
+
+--merge brnach--
+$git branch --merged /lists merged branches so far
+$git branch merge  foobar/use when ur in the file directoy to acept the changes(I.e master)
+$git push origin master
+--delete Branch_
+$git branch --merged / 
+$git branch - d foobar   
+$git push origin master

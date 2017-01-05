@@ -11,11 +11,20 @@ How to Dowload
 $ git clone https://github.com/Michael-Toth/TestGit.git           //copies directoyinto ur pc curent directory
 
 How to Upload
+//stageing areas = Working Directory >Staging Area>>.git directory (Repository)
 $ git add TestingSubmit.txt
-$ git status
+$ git status //
 $ git commit -m"firstcomitfromcmd" TestingSubmit.txt
 $ git push -u origin master
 
 
 
+Initalize a Git Directory
+$git init   //creates directory and starts tracking the projecy
+$ git status //
+$ls -la     // shows the director
+$ rm -rf .git //stopss tracking the project
+$ git status //
 
+Ignore files
+touch .gitignore

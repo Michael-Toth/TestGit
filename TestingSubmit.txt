@@ -10,6 +10,7 @@ $ git push -u origin master
 $git log //show the mesage and who and when of the last comit
 
 
+$rm -f ./.git/index.lock//fixes a lock error
 
 
 

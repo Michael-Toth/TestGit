@@ -10,6 +10,22 @@ $ git push -u origin master
 $git log //show the mesage and who and when of the last comit
 
 
+#---CREATE new BRANCH1 at github--
+$ git checkout master
+
+$git branch -a//*green is local pc
+ls
+clear
+$git checkout -b foobar//creates new local branch
+$git branch -a
+$ git add -A
+
+$ git commit -am "rrrrr"
+$git push --set-upstream https://github.com/Michael-Toth/SpringBootIn50.git foobar
+
+
+
+
 ------Adding an existing project to GitHub---------
 Create a new repository on GitHub
 Open Git Bash.
@@ -70,16 +86,6 @@ touch .gitignore
 ad file or *extsion to ignore in the . ignore file in the directory
 
 COMMON WORK FLOW
----CREATE new BRANCH1 at github--
-$git branch -a//*green is local pc
-ls
-clear
-$git checkout -b newfoobar//creates new local branch
-git branch -a
-$ git add-A
-
-$ git commit -am "rrrrr"
-$git push --set-upstream https://github.com/Michael-Toth/SpringBootIn50.git newFoobar
 
 
 

@@ -9,8 +9,8 @@ $ git reset foobar.txt or git rest to move back to working directory
 $ git push -u origin master
 $git log //show the mesage and who and when of the last comit
 
-
-# ---CREATE new BRANCH1 at github--
+-----------------------------------------------------------------------------------------------
+# CREATE new BRANCH1 at github 
 $ git checkout master
 
 $git branch -a//*green is local pc
@@ -22,7 +22,7 @@ $ git add -A
 
 $ git commit -am "rrrrr"
 $git push --set-upstream https://github.com/Michael-Toth/SpringBootIn50.git foobar
-
+--------------------------------------------------------------------------------------------
 
 
 

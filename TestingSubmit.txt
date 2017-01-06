@@ -62,6 +62,7 @@ $gitclone urlfoobar.com .//the last period in comand means this directy or inste
 -----Viewing Info---
 git branch -a
 git remote -v
+That's the vi editor. Try ESC:q!.
 
 
 ----Ignore files----

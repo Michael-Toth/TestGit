@@ -10,7 +10,7 @@ $ git push -u origin master
 $git log //show the mesage and who and when of the last comit
 
 
-#---CREATE new BRANCH1 at github--
+# ---CREATE new BRANCH1 at github--
 $ git checkout master
 
 $git branch -a//*green is local pc

@@ -21,16 +21,33 @@ Reference-style:
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 # CREATE new BRANCH1 at github 
 $ git checkout master
-# TestGit
+
+
 $git branch -a//*green is local pc
+
+
 ls
+
+
 clear
+
+
 $git checkout -b foobar//creates new local branch
+
+
 $git branch -a
+
+
+
+
 $ git add -A
 
 $ git commit -am "rrrrr"
+
+
 $git push --set-upstream https://github.com/Michael-Toth/SpringBootIn50.git foobar
+
+
 --------------------------------------------------------------------------------------------
 
 

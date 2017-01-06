@@ -80,7 +80,8 @@ $git branch/list all local branches  * denotes working branch
 $git branch --merged /lists merged branches so far
 $git branch merge  foobar/use when ur in the file directoy to acept the changes(I.e master)
 $git push origin master
---delete Branch_
+--delete Branch_--
+Delete the .git directory in the root-directory of your repository //deltes the git from the files and is no longer tracked
 $git branch --merged // checks
 $git branch - d foobar //delets localy
 $git branch - a//checks

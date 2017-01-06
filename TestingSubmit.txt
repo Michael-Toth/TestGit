@@ -12,7 +12,7 @@ $git log //show the mesage and who and when of the last comit
 -----------------------------------------------------------------------------------------------
 # CREATE new BRANCH1 at github 
 $ git checkout master
-
+# TestGit
 $git branch -a//*green is local pc
 ls
 clear

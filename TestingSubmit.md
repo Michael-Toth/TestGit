@@ -8,7 +8,7 @@ $ git reset foobar.txt or git rest to move back to working directory
 ***.git directory (Repository)>$git commit  -m"initalcomitt foobar"//comits to the Repository
 $ git push -u origin master
 $git log //show the mesage and who and when of the last comit
-
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 -----------------------------------------------------------------------------------------------
 Here's our logo (hover to see the title text):
 

@@ -49,8 +49,19 @@ $git push --set-upstream https://github.com/Michael-Toth/SpringBootIn50.git foob
 
 
 --------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+# Delte a Branch
+----------------
+
+$$ git checkout https://github.com/Michael-Toth/SpringBoot007.git
+
+$ git push https://github.com/Michael-Toth/SpringBoot007.git :foobar300
+
+
+----------------------------------------
 
 ------Adding an existing project to GitHub---------
 Create a new repository on GitHub
